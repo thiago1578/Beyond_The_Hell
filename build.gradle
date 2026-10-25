@@ -1,0 +1,26 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '1.0.21'
+}
+
+version = '1.0.0-chapter1'
+group = 'com.beyondthehell'
+base { archivesName = 'Beyond_The_Hell-neoforge-1.21.1' }
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+neoForge {
+    version = '21.1.172'   // si no existe, usa la version de tu MDK de NeoForge 1.21.1
+
+    runs {
+        client { client() }
+        server { server(); programArgument '--nogui' }
+    }
+    mods {
+        beyond_the_hell { sourceSet sourceSets.main }
+    }
+}
+
+repositories { mavenCentral() }
+
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
