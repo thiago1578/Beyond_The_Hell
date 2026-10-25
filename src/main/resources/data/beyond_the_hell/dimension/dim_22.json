@@ -1,0 +1,34 @@
+{
+  "type": "beyond_the_hell:dim_22",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "beyond_the_hell:dim_22",
+      "features": false,
+      "lakes": false,
+      "structure_overrides": [],
+      "layers": [
+        {
+          "block": "minecraft:bedrock",
+          "height": 1
+        },
+        {
+          "block": "minecraft:dark_oak_planks",
+          "height": 2
+        },
+        {
+          "block": "minecraft:air",
+          "height": 8
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "height": 2
+        },
+        {
+          "block": "minecraft:bedrock",
+          "height": 1
+        }
+      ]
+    }
+  }
+}

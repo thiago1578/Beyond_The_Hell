@@ -1,0 +1,34 @@
+{
+  "type": "beyond_the_hell:dim_05",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "beyond_the_hell:dim_05",
+      "features": false,
+      "lakes": false,
+      "structure_overrides": [],
+      "layers": [
+        {
+          "block": "minecraft:bedrock",
+          "height": 1
+        },
+        {
+          "block": "minecraft:grass_block",
+          "height": 2
+        },
+        {
+          "block": "minecraft:air",
+          "height": 12
+        },
+        {
+          "block": "minecraft:black_concrete",
+          "height": 2
+        },
+        {
+          "block": "minecraft:bedrock",
+          "height": 1
+        }
+      ]
+    }
+  }
+}
